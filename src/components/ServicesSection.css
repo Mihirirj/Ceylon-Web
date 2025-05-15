@@ -1,6 +1,6 @@
-/* src/components/ServicesSection.css */
+
 .services-section {
-  background-color: #f8f9fa; /* Light grey background for contrast */
+  background-color: #f8f9fa; 
 }
 
 .services-grid {
@@ -27,7 +27,7 @@
 .service-icon {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #005028; /* SL Green */
+  color: #005028; 
 }
 
 .service-card h3 {
