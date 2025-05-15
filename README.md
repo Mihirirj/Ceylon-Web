@@ -5,7 +5,12 @@
 
 The project aims to illustrate a clean, component-based architecture, responsive design, and a professional UI with a subtle Sri Lankan theme. It's designed to be a portfolio piece demonstrating skills in React, modern JavaScript, localization, and front-end styling.
 
-## ✨ Features
+
+[Screenshot (5170)](https://github.com/user-attachments/assets/378e4eef-f3e5-4863-b4f5-f4dcc25e9d4b)
+
+
+
+##  Features
 
 *   **Multi-Language Support:**
     *   English (Default/Fallback)
@@ -32,10 +37,11 @@ The project aims to illustrate a clean, component-based architecture, responsive
 *   **CSS3:** Custom styling with responsive design principles.
 
 ![Screenshot (5165)](https://github.com/user-attachments/assets/cbdb58e1-ecd2-45c0-b768-314fd8d45d11)
-[![License: MIT](![Screenshot (5169)](https://github.com/user-attachments/assets/4d68e215-67df-4f86-b939-b2032621b331)
-)](![Uploading Screenshot (5165).png…]
 
-## 🚀 Getting Started
+(![Screenshot (5169)](https://github.com/user-attachments/assets/4d68e215-67df-4f86-b939-b2032621b331)
+
+
+##  Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
