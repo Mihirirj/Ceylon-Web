@@ -1,6 +1,6 @@
-/* src/components/Navbar.css */
+
 .navbar {
-  background: linear-gradient(90deg, #005028, #5D001E); /* Green, Maroon from flag */
+  background: linear-gradient(90deg, #005028, #5D001E); 
   height: 70px;
   display: flex;
   justify-content: center;
@@ -24,7 +24,7 @@
 }
 
 .navbar-logo {
-  color: #fff; /* White or Gold */
+  color: #fff; 
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
@@ -41,7 +41,7 @@
 }
 
 .current-lang-indicator {
-  color: #f5a623; /* Gold/Orange */
+  color: #f5a623; 
   font-size: 0.8rem;
   margin-right: 10px;
   padding: 5px 8px;
