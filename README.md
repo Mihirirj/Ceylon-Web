@@ -1,17 +1,79 @@
-<<<<<<< HEAD
-# React + Vite
+# CeylonWeb - Multi-Language React Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+ This project is a demonstration of a modern, multi-language React application built with Vite, showcasing internationalization (i18n) capabilities using `react-i18next`. The application supports English, Sinhala (සිංහල), and Tamil (தமிழ்) languages, allowing users to dynamically switch content.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project aims to illustrate a clean, component-based architecture, responsive design, and a professional UI with a subtle Sri Lankan theme. It's designed to be a portfolio piece demonstrating skills in React, modern JavaScript, localization, and front-end styling.
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Ceylon-Web
-This is the small  Multilingual Website with i18n Support
->>>>>>> e489d80fb9a2272dba99ff64b71c5d0cb108583e
+*   **Multi-Language Support:**
+    *   English (Default/Fallback)
+    *   Sinhala (සිංහල)
+    *   Tamil (தமிழ்)
+*   **Dynamic Language Switching:** Users can easily change the display language using a UI switcher.
+*   **Browser Language Detection:** Attempts to detect the user's preferred browser language on initial load.
+*   **Language Persistence:** Remembers the user's selected language across sessions (using localStorage).
+*   **`react-i18next` Integration:** Robust localization managed via JSON translation files.
+*   **Modern UI/UX:** Clean, responsive design with a Sri Lankan-inspired aesthetic.
+*   **Component-Based Architecture:** Well-structured React components for maintainability.
+*   **Vite Powered:** Fast development and build times.
+*   **Google Fonts Integration:** Utilizes Poppins, Noto Sans Sinhala, and Noto Sans Tamil for optimal text rendering.
+
+## 🛠️ Tech Stack
+
+*   **React:** JavaScript library for building user interfaces.
+*   **Vite:** Next-generation front-end tooling for fast development.
+*   **i18next:** Internationalization framework.
+*   **react-i18next:** React bindings for i18next.
+*   **i18next-http-backend:** Loads translations from a backend (or public folder).
+*   **i18next-browser-languagedetector:** Detects user language.
+*   **JavaScript (ES6+)**
+*   **CSS3:** Custom styling with responsive design principles.
+
+![Screenshot (5165)](https://github.com/user-attachments/assets/cbdb58e1-ecd2-45c0-b768-314fd8d45d11)
+[![License: MIT](![Screenshot (5169)](https://github.com/user-attachments/assets/4d68e215-67df-4f86-b939-b2032621b331)
+)](![Uploading Screenshot (5165).png…]
+
+## 🚀 Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+*   Node.js (v16 or later recommended)
+*   npm or yarn
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/ceylonweb-app.git
+    cd ceylonweb-app
+    ```
+    *(Replace `YOUR_USERNAME/ceylonweb-app.git` with your actual repository URL)*
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+    or
+    ```bash
+    yarn install
+    ```
+
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+    or
+    ```bash
+    yarn dev
+    ```
+    The application will typically be available at `http://localhost:5173`.
+
+### Building for Production
+
+To create a production build:
+```bash
+npm run build
