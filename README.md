@@ -43,7 +43,7 @@ The project aims to illustrate a clean, component-based architecture, responsive
 
 
 
-![Screenshot (5169)](https://github.com/user-attachments/assets/4d68e215-67df-4f86-b939-b2032621b331)
+
 
 
 ##  Getting Started
