@@ -1,0 +1,42 @@
+/* src/components/LanguageSwitcher.css */
+.language-switcher-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.language-label {
+  color: #fff; /* Adjust if navbar background changes */
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+}
+
+.language-buttons {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.lang-btn {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #f5a623; /* Gold/Orange from flag */
+  background-color: transparent;
+  color: #f5a623;
+  cursor: pointer;
+  border-radius: 20px; /* More modern rounded buttons */
+  transition: background-color 0.2s, color 0.2s, transform 0.1s;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.lang-btn:hover {
+  background-color: #f5a623;
+  color: #5D001E; /* Maroon */
+  transform: translateY(-1px);
+}
+
+.lang-btn.active {
+  background-color: #f5a623;
+  color: #5D001E; /* Maroon */
+  border-color: #f5a623;
+  box-shadow: 0 0 5px rgba(245, 166, 35, 0.7);
+}

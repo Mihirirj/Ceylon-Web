@@ -1,0 +1,67 @@
+/* src/components/HeroSection.css */
+.hero-container {
+  /* If you have an image:
+  background: url('../assets/sl-flag-colors-bg.png') center center/cover no-repeat;
+  */
+  background: linear-gradient(135deg, rgba(0, 80, 40, 0.8), rgba(93, 0, 30, 0.8)), 
+              url('https://images.unsplash.com/photo-1560090070-59351039573c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3JpJTIwbGFua2ElMjBsYW5kc2NhcGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60'); /* Example Unsplash image - replace with your own or a better gradient */
+  background-size: cover;
+  background-position: center;
+  height: 60vh; /* Adjust as needed */
+  min-height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2); /* Darken image a bit for text readability */
+}
+
+.hero-container h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-subtitle {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  max-width: 700px;
+  font-weight: 300;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.hero-cta-button {
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  background-color: #f5a623; /* Gold/Orange */
+  color: #422a03; /* Dark brown for text on gold */
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.hero-cta-button:hover {
+  background-color: #e09311; /* Darker Gold/Orange */
+  transform: translateY(-2px);
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container h1 {
+    font-size: 2.2rem;
+  }
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+  .hero-cta-button {
+    padding: 10px 22px;
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "navbar": {
+    "title": "CeylonWeb",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Welcome to CeylonWeb",
+    "subtitle": "Your Gateway to Innovative Digital Solutions in Sri Lanka.",
+    "ctaButton": "Explore Services"
+  },
+  "about": {
+    "title": "About Us",
+    "paragraph1": "CeylonWeb is a leading technology partner based in Sri Lanka, dedicated to crafting exceptional digital experiences. We blend local insights with global standards.",
+    "paragraph2": "Our mission is to empower businesses and individuals through cutting-edge web and mobile solutions."
+  },
+  "services": {
+    "title": "Our Services",
+    "item1_title": "Web Development",
+    "item1_desc": "Modern, responsive websites tailored to your needs.",
+    "item2_title": "Mobile Apps",
+    "item2_desc": "Native and cross-platform mobile applications.",
+    "item3_title": "Digital Marketing",
+    "item3_desc": "Strategies to boost your online presence."
+  },
+  "footer": {
+    "copyright": "© 2023 CeylonWeb. All Rights Reserved."
+  },
+  "languages": {
+    "english": "English",
+    "sinhala": "සිංහල (Sinhala)",
+    "tamil": "தமிழ் (Tamil)"
+  },
+  "currentLanguage": "Current: {{lng}}"
+}

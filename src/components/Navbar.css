@@ -1,0 +1,52 @@
+/* src/components/Navbar.css */
+.navbar {
+  background: linear-gradient(90deg, #005028, #5D001E); /* Green, Maroon from flag */
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 24px;
+  align-items: center;
+}
+
+.navbar-logo {
+  color: #fff; /* White or Gold */
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.current-lang-indicator {
+  color: #f5a623; /* Gold/Orange */
+  font-size: 0.8rem;
+  margin-right: 10px;
+  padding: 5px 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+/* Adjust LanguageSwitcher button styles if needed, or they can inherit global styles */

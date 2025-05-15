@@ -1,0 +1,31 @@
+/* src/index.css */
+body {
+  margin: 0;
+  font-family: 'Poppins', 'Noto Sans Sinhala', 'Noto Sans Tamil', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff; 
+  color: #333;
+  line-height: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+a {
+  color: #006A4E; /* Using a Sri Lankan Green for links */
+  text-decoration: none;
+  font-weight: 500; /* Slightly bolder links */
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #F5A623; /* Gold on hover */
+}
