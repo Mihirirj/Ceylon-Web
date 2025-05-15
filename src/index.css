@@ -1,4 +1,4 @@
-/* src/index.css */
+
 body {
   margin: 0;
   font-family: 'Poppins', 'Noto Sans Sinhala', 'Noto Sans Tamil', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -20,12 +20,12 @@ body {
 
 
 a {
-  color: #006A4E; /* Using a Sri Lankan Green for links */
+  color: #006A4E; 
   text-decoration: none;
-  font-weight: 500; /* Slightly bolder links */
+  font-weight: 500; 
 }
 
 a:hover {
   text-decoration: underline;
-  color: #F5A623; /* Gold on hover */
+  color: #F5A623; 
 }
