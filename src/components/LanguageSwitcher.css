@@ -1,4 +1,4 @@
-/* src/components/LanguageSwitcher.css */
+
 .language-switcher-container {
   display: flex;
   align-items: center;
@@ -6,7 +6,7 @@
 }
 
 .language-label {
-  color: #fff; /* Adjust if navbar background changes */
+  color: #fff; 
   font-size: 0.9rem;
   margin-right: 0.5rem;
 }
@@ -22,7 +22,7 @@
   background-color: transparent;
   color: #f5a623;
   cursor: pointer;
-  border-radius: 20px; /* More modern rounded buttons */
+  border-radius: 20px; 
   transition: background-color 0.2s, color 0.2s, transform 0.1s;
   font-size: 0.8rem;
   font-weight: bold;
@@ -30,13 +30,13 @@
 
 .lang-btn:hover {
   background-color: #f5a623;
-  color: #5D001E; /* Maroon */
+  color: #5D001E; 
   transform: translateY(-1px);
 }
 
 .lang-btn.active {
   background-color: #f5a623;
-  color: #5D001E; /* Maroon */
+  color: #5D001E; 
   border-color: #f5a623;
   box-shadow: 0 0 5px rgba(245, 166, 35, 0.7);
 }
