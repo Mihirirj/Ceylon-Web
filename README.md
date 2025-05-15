@@ -5,9 +5,9 @@
 
 The project aims to illustrate a clean, component-based architecture, responsive design, and a professional UI with a subtle Sri Lankan theme. It's designed to be a portfolio piece demonstrating skills in React, modern JavaScript, localization, and front-end styling.
 
-![Screenshot (5170)](https://github.com/user-attachments/assets/ac5bf334-8985-4190-a66e-b5cce01ffaa2)
 
 
+![Screenshot (5169)](https://github.com/user-attachments/assets/4d68e215-67df-4f86-b939-b2032621b331)
 
 
 ##  Features
@@ -25,6 +25,7 @@ The project aims to illustrate a clean, component-based architecture, responsive
 *   **Vite Powered:** Fast development and build times.
 *   **Google Fonts Integration:** Utilizes Poppins, Noto Sans Sinhala, and Noto Sans Tamil for optimal text rendering.
 
+![Screenshot (5170)](https://github.com/user-attachments/assets/ac5bf334-8985-4190-a66e-b5cce01ffaa2)
 ## 🛠️ Tech Stack
 
 *   **React:** JavaScript library for building user interfaces.
@@ -87,3 +88,4 @@ Follow these instructions to get a copy of the project up and running on your lo
 To create a production build:
 ```bash
 npm run build
+
