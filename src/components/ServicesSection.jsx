@@ -6,7 +6,7 @@ import './ServicesSection.css';
 const ServicesSection = () => {
   const { t } = useTranslation();
   const services = [
-    { key: 'item1', icon: '💻' }, // Simple emoji icons
+    { key: 'item1', icon: '💻' }, 
     { key: 'item2', icon: '📱' },
     { key: 'item3', icon: '📢' },
   ];
