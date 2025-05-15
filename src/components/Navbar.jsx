@@ -1,11 +1,11 @@
-// src/components/Navbar.jsx
+
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
 import './Navbar.css';
 
 const Navbar = () => {
-  const { t, i18n } = useTranslation(); // CORRECTED: Added i18n here
+  const { t, i18n } = useTranslation(); 
 
   return (
     <nav className="navbar">
