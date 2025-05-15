@@ -1,7 +1,7 @@
-// src/components/LanguageSwitcher.jsx
+
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import './LanguageSwitcher.css'; // We'll create this
+import './LanguageSwitcher.css'; 
 
 const languageOptions = [
   { code: 'en', nameKey: 'languages.english' },
@@ -27,7 +27,7 @@ const LanguageSwitcher = () => {
             className={`lang-btn ${i18n.resolvedLanguage === lang.code ? 'active' : ''}`}
             title={t(lang.nameKey)} // Tooltip with full language name
           >
-            {lang.code.toUpperCase()} {/* Show EN, SI, TA on buttons */}
+            {lang.code.toUpperCase()} 
           </button>
         ))}
       </div>
