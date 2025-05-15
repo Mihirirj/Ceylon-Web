@@ -1,4 +1,4 @@
-/* src/components/Section.css */
+
 .content-section {
   padding: 60px 20px;
   text-align: center;
@@ -12,13 +12,13 @@
 .content-section h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #2c3e50; /* Dark blue-grey */
+  color: #2c3e50; 
 }
 
 .section-divider {
   width: 80px;
   height: 4px;
-  background-color: #f5a623; /* Gold/Orange */
+  background-color: #f5a623; 
   margin: 0 auto 2.5rem auto;
   border-radius: 2px;
 }
@@ -28,14 +28,14 @@
   color: #555;
   line-height: 1.7;
   margin-bottom: 1rem;
-  text-align: left; /* For better readability of paragraphs */
+  text-align: left; 
 }
 
 .content-section p:last-child {
   margin-bottom: 0;
 }
 
-.about-section p { /* Example for specific section text alignment */
+.about-section p { 
   text-align: center;
 }
 
